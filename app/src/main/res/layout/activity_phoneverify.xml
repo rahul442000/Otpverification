@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/second"
+    android:layout_height="match_parent"
+    tools:context=".PhoneverifyActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the OTP"
+        android:id="@+id/otp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/otp"
+        android:id="@+id/login"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+</android.support.constraint.ConstraintLayout>

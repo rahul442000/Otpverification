@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/second"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Your Mobile Number"
+    android:id="@+id/mobile"
+    android:inputType="phone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Request OTP"
+        android:id="@+id/cont"
+        app:layout_constraintTop_toBottomOf="@+id/mobile"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+</android.support.constraint.ConstraintLayout>
